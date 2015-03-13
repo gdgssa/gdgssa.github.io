@@ -65,7 +65,7 @@ schedule:
       description: ""
       time:
         hour: "8:30"
-        turn: am
+        turn: "am"
       title: Credenciamento
 
   - link: ""
@@ -75,28 +75,28 @@ schedule:
       description: ""
       time:
         hour: "8:50"
-        turn: am
+        turn: "am"
       title: Abertura
 
   - link: "#"
-    name: "A confirmar"
-    photo: /img/a-confirmar.jpg
+    name: "Rafael Verger"
+    photo: /img/speakers/rafael-verger.jpg
     presentation:
       description: ""
       time:
         hour: "9:00"
-        turn: am
-      title: "A confirmar"
+        turn: "am"
+      title: "NodeJS na JusBrasil"
 
   - link: "#"
-    name: "A confirmar"
-    photo: /img/a-confirmar.jpg
+    name: "Wilson Mendes"
+    photo: "/img/speakers/wilson-mendes.jpeg"
     presentation:
-      description: ""
+      description: 'Angularjs é um framework javascript construido e mantido pelo grupo de engenheiros do Google, ele usa o HTML como uma "template engine" aliado a conceitos de Orientação a Objetos, testes, dentre outros, no intuito de fornecer uma solução completa para o cliente-side de sua aplicação. Além disso tem total compatibilidade com as bibliotecas javascript mais utilizadas, como jQuery. é um novo conceito para desenvolvimento de web apps client-site.<br/><br/>Este curso vai mostrar através de exemplos práticos que é possível criar aplicações complexas com um código baseado em boas práticas, simples, coeso, performático e modularizado.'
       time:
         hour: "10:00"
-        turn: am
-      title: "A confirmar"
+        turn: "am"
+      title: "Performance com AngularJS"
 
   - link: "#"
     name: "A confirmar"
@@ -105,7 +105,7 @@ schedule:
       description: ""
       time:
         hour: "11:00"
-        turn: am
+        turn: "am"
       title: "A confirmar"
 
   - link: "#"
@@ -115,7 +115,7 @@ schedule:
       description: ""
       time:
         hour: "2:00"
-        turn: pm
+        turn: "pm"
       title: "A confirmar"
 
   - link: "#"
@@ -125,7 +125,7 @@ schedule:
       description: ""
       time:
         hour: "3:00"
-        turn: pm
+        turn: "pm"
       title: "A confirmar"
 
   - link: "#"
@@ -135,7 +135,7 @@ schedule:
       description: ""
       time:
         hour: "4:00"
-        turn: pm
+        turn: "pm"
       title: "A confirmar"
 
   - link: "https://developers.google.com/groups/pulse/Brazil"
@@ -145,7 +145,7 @@ schedule:
       description: ""
       time:
         hour: "4:20"
-        turn: pm
+        turn: "pm"
       title: "Painel sobre Internet das Coisas (Mediador GDG Recife)"
 
   - link: "#"
@@ -155,7 +155,7 @@ schedule:
       description: ""
       time:
         hour: "5:20"
-        turn: pm
+        turn: "pm"
       title: "Encerramento"
 
 sponsors:
