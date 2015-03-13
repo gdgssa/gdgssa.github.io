@@ -1,0 +1,164 @@
+---
+navbar_logo: "/img/gdg-salvador.svg"
+# url: "http://gdg-salvador.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
+baseurl: ""
+
+about: "O Google Developer Groups (GDG) das cidades de Salvador, Recife, Fortaleza, Belo Horizonte e Curitiba realizam no dia 28 de março o GDG DevFest Extended 2015. O objetivo é ser um evento focado nas tecnologias do Google, tendo como público alvo gestores, empreendedores, desenvolvedores e estudantes, acontecendo nos estados com participações locais e remotas. Gostou? Então inscreva-se!"
+
+# Remove this coment and add your city image for show in website
+# city_image: /img/igrejinha-pampulha-buenolucas.png
+
+# Informations about event
+call_to_action:
+  link: "https://www.sympla.com.br/gdg-devfest-extended-salvador__30630"
+  title: "Inscreva-se"
+
+# Conference informations
+conf:
+  contacts:
+    email: gdg.salvador@gmail.com
+  cover_image: "/img/gdg-salvador.svg"
+  description: "Google Developers Group - BA - DevFest Extendend"
+  end_at: "17:30"
+  map_key: AIzaSyCdv2cEruteJozLlFVXVagofxNPJuqy7jc
+  place:
+    address: "SENAI CIMATEC"
+    city: "Salvador"
+    geo_point:
+      lat: -12.93857
+      lon: -38.386982
+    state: BA
+    venue: "Av. Orlando Gomes, 1845 - Piatã"
+  start_at: "8:30"
+  sub_title: "28 de Março, Salvador"
+  title: "GDG DevFest Extended Salvador"
+  tracking_id: UA-60535075-1
+  website_url: ""
+
+description: ""
+
+highlighter: pygments
+markdown: redcarpet
+paginate: 10
+
+partners:
+  - logo: /img/gdg-salvador.svg
+    name: "GDG Salvador"
+    url: ""
+
+  - logo: /img/wtm.png
+    name: "Women Techmakers"
+    url: "https://developers.google.com/women-techmakers"
+
+  - logo: /img/partners/lucasbueno.png
+    name: "Lucas Bueno"
+    url: "https://plus.google.com/+LucasBueno"
+
+permalink: "/:year/:month/:day/:title"
+
+schedule:
+  - link: ""
+    name: "GDG Salvador"
+    photo: /img/gdg-salvador.svg
+    presentation:
+      description: ""
+      time:
+        hour: "8:30"
+        turn: am
+      title: Credenciamento
+
+  - link: ""
+    name: "GDG Salvador"
+    photo: /img/gdg-salvador.svg
+    presentation:
+      description: ""
+      time:
+        hour: "8:50"
+        turn: am
+      title: Abertura
+
+  - link: "#"
+    name: "A confirmar"
+    photo: /img/a-confirmar.jpg
+    presentation:
+      description: ""
+      time:
+        hour: "9:00"
+        turn: am
+      title: "A confirmar"
+
+  - link: "#"
+    name: "A confirmar"
+    photo: /img/a-confirmar.jpg
+    presentation:
+      description: ""
+      time:
+        hour: "10:00"
+        turn: am
+      title: "A confirmar"
+
+  - link: "#"
+    name: "A confirmar"
+    photo: /img/a-confirmar.jpg
+    presentation:
+      description: ""
+      time:
+        hour: "11:00"
+        turn: am
+      title: "A confirmar"
+
+  - link: "#"
+    name: "A confirmar"
+    photo: /img/a-confirmar.jpg
+    presentation:
+      description: ""
+      time:
+        hour: "2:00"
+        turn: pm
+      title: "A confirmar"
+
+  - link: "#"
+    name: "A confirmar"
+    photo: /img/a-confirmar.jpg
+    presentation:
+      description: ""
+      time:
+        hour: "3:00"
+        turn: pm
+      title: "A confirmar"
+
+  - link: "#"
+    name: "A confirmar"
+    photo: /img/a-confirmar.jpg
+    presentation:
+      description: ""
+      time:
+        hour: "4:00"
+        turn: pm
+      title: "A confirmar"
+
+  - link: "https://developers.google.com/groups/pulse/Brazil"
+    name: GDGs
+    photo: /img/gdg.png
+    presentation:
+      description: ""
+      time:
+        hour: "4:20"
+        turn: pm
+      title: "Painel sobre Internet das Coisas (Mediador GDG Recife)"
+
+  - link: "#"
+    name: "A confirmar"
+    photo: /img/a-confirmar.jpg
+    presentation:
+      description: ""
+      time:
+        hour: "5:20"
+        turn: pm
+      title: "Encerramento"
+
+sponsors:
+  - logo: "/img/senai.png"
+    name: "Senai Cimatec"
+    url: "http://portais.fieb.org.br/senai/senai-na-sua-cidade/salvador/cimatec.html"

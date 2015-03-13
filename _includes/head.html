@@ -1,0 +1,37 @@
+<head>
+  <title>{{ site.conf.title }} - {{ site.conf.sub_title }}</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="{{site.conf.title}}">
+  <meta name="description" content="{{site.conf.description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- FACEBOOK -->
+  <!--<meta property="fb:app_id" content="372862979453673">-->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{site.conf.website_url}}">
+  <meta property="og:title" content="{{site.conf.title}} ">
+  <meta property="og:description" content="{{site.conf.description}}">
+  <meta property="og:image" content="{{site.conf.cover_image}}">
+  <!-- / FACEBOOK -->
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <!-- Roboto Font -->
+  <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,300,100" rel="stylesheet" type="text/css">
+
+  <!-- Base CSS -->
+
+  <link rel="stylesheet" href="{{ "/css/style.css"  | prepend: site.baseurl | prepend: site.url  }}">
+  <link rel="shortcut icon" href="{{ "/img/favicon.ico"  | prepend: site.baseurl | prepend: site.url  }}" />
+
+</head>

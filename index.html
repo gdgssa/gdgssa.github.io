@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+    <section class="sobre container" id="sobre">
+
+    {{ site.about }}
+
+    </section>
+    <section class="agenda" id="palestras">
+      <div class="container">
+        <h2>Palestras</h2>
+
+        {% if site.schedule %}
+
+          {% for e in site.schedule %}
+          <div class="presentation-gem row">
+            <div class="col-sm-10">
+              <div class="pull-left" >
+                <span class="gem-hour">{{ e.presentation.time.hour }}</span><span class="gem-turn">{{ e.presentation.turn }}</span>
+              </div>
+              <div style="margin-left:120px;">
+                <h3>{{ e.presentation.title }}</h3>
+              <div class="sub"><a href="{{ e.link }}">{{ e.name }}</a></div>
+              <div>
+                {{ e.presentation.description }}
+              </div>
+              </div>
+            </div>
+            <div class="col-sm-2 hidden-xs">
+              <a href="{{ e.link }}" target="_blank"><img src="{{ e.photo | prepend: site.baseurl | prepend: site.url }}" class="img-responsive" /></a>
+            </div>
+          </div>
+          <hr/>
+
+          {% endfor %}
+
+        {% else %}
+
+          <div class="alert alert-warning" role="alert">Edit o arquivo "_config.yml" para adicionar as palestras</div>
+
+        {% endif %}
+
+      </div>
+    </section>
+
+    <section class="localizacao" id="localizacao">
+
+      <div id="maplayer" class="maplayer"></div>
+
+      <div class="content-wrapper">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 text-left card loc-bx">
+          <div class="row">
+            <div class="pull-left">
+              <h2>Localização</h2>
+              <ul class="list-unstyled">
+                <li>{{site.conf.place.address}}</li>
+                <li><strong>{{site.conf.place.venue}}</strong></li>
+                <li><a href="mailto:{{ site.conf.contacts.email }}">{{ site.conf.contacts.email }}</a></li>
+                <li> <time>{{ site.conf.start_at }}</time> - <time>{{ site.conf.end_at }}</time> </li>
+              </ul>
+            </div>
+              <a href="#rota" class="pull-right"> <img src="{{ "/img/direction-icon.png"  | prepend: site.baseurl | prepend: site.url  }}"/> </a>
+            </div>
+          </div>
+        </div>
+        <div style="clear:both"></div>
+
+    </section>
+
+    <section class="parceiros" id="parceiros">
+      <div class="container">
+        <h2>Parceiros</h2>
+        {% if site.partners %}
+
+          {% for partner in site.partners %}
+            <div class="col-sm-4">
+              <div class="card">
+                <a href="{{partner.url}}" target="_blank">
+                  <img src="{{ partner.logo | prepend: site.baseurl | prepend: site.url }}" alt="{{partner.name}}" class="img-responsive friend-logo "/>
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+
+        {% else %}
+
+          <div class="alert alert-warning" role="alert">Edite o arquivo "_config.yml" para adicionar parceiros</div>
+
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="patrocinadores" id="patrocinadores">
+      <div class="container">
+
+        <h2>Patrocinadores</h2>
+
+        {% if site.sponsors %}
+
+          {% for sponsor in site.sponsors %}
+            <div class="col-sm-4">
+              <div class="card">
+                <a href="{{sponsor.url}}" target="_blank">
+                  <img src="{{sponsor.logo | prepend: site.baseurl | prepend: site.url}}" alt="{{sponsor.name}}" class="img-responsive friend-logo "/>
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+
+        {% else %}
+
+          <div class="alert alert-warning" role="alert">Edite o arquivo "_config.yml" para adicionar patrocinadores</div>
+
+        {% endif %}
+      </div>
+    </section>
