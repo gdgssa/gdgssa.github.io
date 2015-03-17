@@ -122,7 +122,7 @@ schedule:
       remote: "true"
       description: "Descubra ferramentas e funcionalidades da Google que você não conhecia e que podem te ajudar na sua vida como desenvolvedor e no seu dia-a-dia. Além de conhecer mais sobre o programa de Jovens Embaixadores Google.<br/><i><b>Eduardo Emery</b> é Estudante de Engenharia de Controle e Automação na Universidade de Pernambuco, Jovem Embaixador Google da sua Universidade, certificado em AdWords, guia local Google, desenvolvedor e apaixonado por robótica.</i>"
       time:
-        hour: "2:00"
+        hour: "14:00"
         turn: "pm"
       title: "O Google que você não conhece!"
 
@@ -133,7 +133,7 @@ schedule:
       remote: "false"
       description: ""
       time:
-        hour: "3:00"
+        hour: "15:00"
         turn: "pm"
       title: "NodeJS na JusBrasil"
 
@@ -144,7 +144,7 @@ schedule:
       remote: "false"
       description: 'O Xamarin é uma plataforma que proporciona o desenvolvimento de aplicações nativas utilizando C# e compartilhando até 90% do código entre as plataformas.<br/>Conheça alguns conceitos da nova mobilidade que mescla novas tecnologias como beacons bluetooth, wearables, google glass e muito mais com exemplos práticos!'
       time:
-        hour: "4:00"
+        hour: "16:00"
         turn: "pm"
       title: "A confirmar"
 
@@ -155,7 +155,7 @@ schedule:
       remote: "false"
       description: ""
       time:
-        hour: "4:20"
+        hour: "16:20"
         turn: "pm"
       title: "Painel sobre Internet das Coisas (Mediador GDG Recife)"
 
@@ -166,7 +166,7 @@ schedule:
       remote: "false"
       description: ""
       time:
-        hour: "5:20"
+        hour: "17:20"
         turn: "pm"
       title: "Encerramento"
 
