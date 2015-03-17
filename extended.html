@@ -12,7 +12,7 @@ layout: default
         <h2>Palestras</h2>
 
         {% if site.schedule %}
-
+          <p><i>* Grade sujeita a alterações</i></p>
           {% for e in site.schedule %}
           <div class="presentation-gem row">
             <div class="col-sm-10">
@@ -21,6 +21,9 @@ layout: default
               </div>
               <div style="margin-left:120px;">
                 <h3>{{ e.presentation.title }}</h3>
+                {% if e.presentation.remote == "true" %}
+                  <span class="label label-primary">Remota</span>
+                {% endif %}
               <div class="sub"><a href="{{ e.link }}">{{ e.name }}</a></div>
               <div>
                 {{ e.presentation.description }}

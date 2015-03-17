@@ -62,6 +62,7 @@ schedule:
     name: "GDG Salvador"
     photo: /img/gdg-salvador.svg
     presentation:
+      remote: "false"
       description: ""
       time:
         hour: "8:30"
@@ -72,26 +73,31 @@ schedule:
     name: "GDG Salvador"
     photo: /img/gdg-salvador.svg
     presentation:
+      remote: "false"
       description: ""
       time:
         hour: "8:50"
         turn: "am"
       title: Abertura
 
+
+
   - link: "#"
-    name: "Rafael Verger"
-    photo: /img/speakers/rafael-verger.jpg
+    name: "Juan José Rodriguez"
+    photo: "/img/speakers/juan-rodriguez.jpg"
     presentation:
-      description: ""
+      remote: "true"
+      description: "Compartilhar a experiencia de um Glass Explorer desde o inicio ate a reengenharia do programa"
       time:
         hour: "9:00"
         turn: "am"
-      title: "NodeJS na JusBrasil"
+      title: "Google Glass e as melhores experiencias do Programa Glass Explorer"
 
   - link: "#"
     name: "Wilson Mendes"
     photo: "/img/speakers/wilson-mendes.jpeg"
     presentation:
+      remote: "false"
       description: 'Angularjs é um framework javascript construido e mantido pelo grupo de engenheiros do Google, ele usa o HTML como uma "template engine" aliado a conceitos de Orientação a Objetos, testes, dentre outros, no intuito de fornecer uma solução completa para o cliente-side de sua aplicação. Além disso tem total compatibilidade com as bibliotecas javascript mais utilizadas, como jQuery. é um novo conceito para desenvolvimento de web apps client-site.<br/><br/>Entenda as novidades que estão por vir com o AngularJS 2.0, as novas definições, facilidades, novos desafios e entenda o motivo do AngularJS ser um framework excelente para todos os momentos.'
       time:
         hour: "10:00"
@@ -102,6 +108,7 @@ schedule:
     name: "Gláuber Brennon"
     photo: "/img/speakers/glauber.jpg"
     presentation:
+      remote: "false"
       description: ""
       time:
         hour: "11:00"
@@ -109,30 +116,33 @@ schedule:
       title: "Escrevendo APIs REST com o Flask"
 
   - link: "#"
-    name: "A confirmar"
-    photo: /img/a-confirmar.jpg
+    name: "Eduardo Emery"
+    photo: "/img/speakers/emery.jpg"
     presentation:
-      description: ""
+      remote: "true"
+      description: "Descubra ferramentas e funcionalidades da Google que você não conhecia e que podem te ajudar na sua vida como desenvolvedor e no seu dia-a-dia. Além de conhecer mais sobre o programa de Jovens Embaixadores Google.<br/><i><b>Eduardo Emery</b> é Estudante de Engenharia de Controle e Automação na Universidade de Pernambuco, Jovem Embaixador Google da sua Universidade, certificado em AdWords, guia local Google, desenvolvedor e apaixonado por robótica.</i>"
       time:
         hour: "2:00"
         turn: "pm"
-      title: "A confirmar"
+      title: "O Google que você não conhece!"
 
   - link: "#"
-    name: "A confirmar"
-    photo: /img/a-confirmar.jpg
+    name: "Rafael Verger"
+    photo: "/img/speakers/rafael-verger.jpg"
     presentation:
+      remote: "false"
       description: ""
       time:
         hour: "3:00"
         turn: "pm"
-      title: "A confirmar"
+      title: "NodeJS na JusBrasil"
 
   - link: "#"
-    name: "A confirmar"
-    photo: /img/a-confirmar.jpg
+    name: "Usando Xamarin para uma nova mobilidade"
+    photo: "/img/speakers/paulo-ortins.jpg"
     presentation:
-      description: ""
+      remote: "false"
+      description: 'O Xamarin é uma plataforma que proporciona o desenvolvimento de aplicações nativas utilizando C# e compartilhando até 90% do código entre as plataformas.<br/>Conheça alguns conceitos da nova mobilidade que mescla novas tecnologias como beacons bluetooth, wearables, google glass e muito mais com exemplos práticos!'
       time:
         hour: "4:00"
         turn: "pm"
@@ -142,6 +152,7 @@ schedule:
     name: GDGs
     photo: /img/gdg.png
     presentation:
+      remote: "false"
       description: ""
       time:
         hour: "4:20"
@@ -152,6 +163,7 @@ schedule:
     name: "A confirmar"
     photo: /img/a-confirmar.jpg
     presentation:
+      remote: "false"
       description: ""
       time:
         hour: "5:20"
