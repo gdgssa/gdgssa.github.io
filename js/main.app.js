@@ -60,7 +60,8 @@ function init() {
             shrinkOn = 1,
             header = document.querySelector("header");
         if (distanceY > shrinkOn && mustShake==false) {
-            $('.navbar').animate({'backgroundColor':'#FFFFFF', 'boxShadow' : '0 0 5px #000000'}, 600)
+            $('.navbar').animate({'backgroundColor':'#FFFFFF', 'boxShadow' : '0 0 5px #000000'}, 600)            
+            $('.navbar-toggle').animate({'backgroundColor':'#333'}, 600)
             $('.navbar-nav>li>a ').animate({'color':'#000000'}, 600)
             mustShake =true
         } else if (distanceY < shrinkOn && mustShake==true) {
