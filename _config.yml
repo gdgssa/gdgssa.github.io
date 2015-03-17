@@ -92,21 +92,21 @@ schedule:
     name: "Wilson Mendes"
     photo: "/img/speakers/wilson-mendes.jpeg"
     presentation:
-      description: 'Angularjs é um framework javascript construido e mantido pelo grupo de engenheiros do Google, ele usa o HTML como uma "template engine" aliado a conceitos de Orientação a Objetos, testes, dentre outros, no intuito de fornecer uma solução completa para o cliente-side de sua aplicação. Além disso tem total compatibilidade com as bibliotecas javascript mais utilizadas, como jQuery. é um novo conceito para desenvolvimento de web apps client-site.<br/><br/>Este curso vai mostrar através de exemplos práticos que é possível criar aplicações complexas com um código baseado em boas práticas, simples, coeso, performático e modularizado.'
+      description: 'Angularjs é um framework javascript construido e mantido pelo grupo de engenheiros do Google, ele usa o HTML como uma "template engine" aliado a conceitos de Orientação a Objetos, testes, dentre outros, no intuito de fornecer uma solução completa para o cliente-side de sua aplicação. Além disso tem total compatibilidade com as bibliotecas javascript mais utilizadas, como jQuery. é um novo conceito para desenvolvimento de web apps client-site.<br/><br/>Entenda as novidades que estão por vir com o AngularJS 2.0, as novas definições, facilidades, novos desafios e entenda o motivo do AngularJS ser um framework excelente para todos os momentos.'
       time:
         hour: "10:00"
         turn: "am"
-      title: "Performance com AngularJS"
+      title: "O futuro dos WebApps com AngularJS 2.0"
 
   - link: "#"
-    name: "A confirmar"
-    photo: /img/a-confirmar.jpg
+    name: "Gláuber Brennon"
+    photo: "/img/speakers/glauber.jpg"
     presentation:
       description: ""
       time:
         hour: "11:00"
         turn: "am"
-      title: "A confirmar"
+      title: "Escrevendo APIs REST com o Flask"
 
   - link: "#"
     name: "A confirmar"

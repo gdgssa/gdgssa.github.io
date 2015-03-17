@@ -6,6 +6,17 @@ body {
   font-size: 21px;
   position: relative;
 }
+.main-page{
+  padding-top: 0 !important;
+}
+
+.main-description{
+	background: #fff;
+	color: #333;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	box-shadow: 2px 2px 5px #999;
+}
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 *
