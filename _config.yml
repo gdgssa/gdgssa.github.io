@@ -98,7 +98,7 @@ schedule:
     photo: "/img/speakers/wilson-mendes.jpeg"
     presentation:
       remote: "false"
-      description: 'Angularjs é um framework javascript construido e mantido pelo grupo de engenheiros do Google, ele usa o HTML como uma "template engine" aliado a conceitos de Orientação a Objetos, testes, dentre outros, no intuito de fornecer uma solução completa para o cliente-side de sua aplicação. Além disso tem total compatibilidade com as bibliotecas javascript mais utilizadas, como jQuery. é um novo conceito para desenvolvimento de web apps client-site.<br/><br/>Entenda as novidades que estão por vir com o AngularJS 2.0, as novas definições, facilidades, novos desafios e entenda o motivo do AngularJS ser um framework excelente para todos os momentos.'
+      description: 'Angularjs é um framework javascript construido e mantido pelo grupo de engenheiros do Google, ele usa o HTML como uma "template engine" aliado a conceitos de Orientação a Objetos, testes, dentre outros, no intuito de fornecer uma solução completa para o cliente-side de sua aplicação. Além disso tem total compatibilidade com as bibliotecas javascript mais utilizadas, como jQuery. é um novo conceito para desenvolvimento de web apps client-site.<br/><br/>Entenda as novidades que estão por vir com o AngularJS 2.0, as novas definições, facilidades, novos desafios e entenda o motivo do AngularJS ser um framework excelente para todos os momentos.<br/><br/><i>Wilson é GDE (Google Developer Expert) de AngularJS, organizador do GDG Salvador, apaixonado por tecnologia e ativo em várias comunidades com foco em desenvolvimento web, incluindo AngularJS, JavaScript, HTML5, CSS3, Workflow, web performance e segurança. Participa de organizações de eventos, palestra em conferências pelo Brasil e contribui com vários projetos open source.</i>'
       time:
         hour: "10:00"
         turn: "am"
@@ -131,22 +131,22 @@ schedule:
     photo: "/img/speakers/rafael-verger.jpg"
     presentation:
       remote: "false"
-      description: ""
+      description: "A história de como o JavaScript entrou para o back-end do JusBrasil, maior portal de informação pública brasileiro; nosso primeiro projeto com Node.js e o que vem por aí!"
       time:
         hour: "15:00"
         turn: "pm"
-      title: "NodeJS na JusBrasil"
+      title: "JusBrasil.js"
 
   - link: "#"
-    name: "Usando Xamarin para uma nova mobilidade"
-    photo: "/img/speakers/paulo-ortins.jpg"
+    name: ""
+    photo: "/img/gdg.png"
     presentation:
       remote: "false"
-      description: 'O Xamarin é uma plataforma que proporciona o desenvolvimento de aplicações nativas utilizando C# e compartilhando até 90% do código entre as plataformas.<br/>Conheça alguns conceitos da nova mobilidade que mescla novas tecnologias como beacons bluetooth, wearables, google glass e muito mais com exemplos práticos!'
+      description: ""
       time:
         hour: "16:00"
         turn: "pm"
-      title: "A confirmar"
+      title: "Coffee Break e Networking"
 
   - link: "https://developers.google.com/groups/pulse/Brazil"
     name: GDGs
@@ -160,15 +160,15 @@ schedule:
       title: "Painel sobre Internet das Coisas (Mediador GDG Recife)"
 
   - link: "#"
-    name: "A confirmar"
-    photo: /img/a-confirmar.jpg
+    name: "Usando Xamarin para uma nova mobilidade"
+    photo: "/img/speakers/paulo-ortins.jpg"
     presentation:
       remote: "false"
-      description: ""
+      description: 'O Xamarin é uma plataforma que proporciona o desenvolvimento de aplicações nativas utilizando C# e compartilhando até 90% do código entre as plataformas.<br/>Conheça alguns conceitos da nova mobilidade que mescla novas tecnologias como beacons bluetooth, wearables, google glass e muito mais com exemplos práticos!'
       time:
         hour: "17:20"
         turn: "pm"
-      title: "Encerramento"
+      title: "A confirmar"
 
 sponsors:
   - logo: "/img/senai.png"
