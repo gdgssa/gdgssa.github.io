@@ -193,6 +193,11 @@ section.main {
 .agenda {
 	margin-bottom: 40px;
 }
+.presentation-desc  {
+	display: inline-block;
+	margin-left: 15px;
+	max-width: 80%;
+}
 
 .presentation-gem  {
 	margin-bottom: 30px;
@@ -317,6 +322,7 @@ footer {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
 	.navbar-brand img {
 		width: 220px;
 		margin-top: 0	px;
@@ -324,7 +330,6 @@ footer {
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
 
 

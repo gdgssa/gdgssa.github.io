@@ -3,12 +3,8 @@ layout: default
 ---
 
     <section class="sobre container" id="sobre">
-
-    {{ site.about }}
-
-    <div class="row text-center">
-     <a id="hey-yo" target="_blank" class="btn btn-danger btn-lg " href="{{site.call_to_action.link}}">{{site.call_to_action.title}}</a>
-    </div>
+      {{ site.about }}
+      <div id="sympla_tickets" style="max-width:600px;  text-align:left; margin: 60px auto 0;"><iframe frameborder="0" width="100%" height="206px" src="http://www.sympla.com.br/tickets-widget?eid=30630&lang=pt" vspace="0" hspace="0" marginheight="0" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
     </section>
 
     <section class="agenda" id="palestras">
@@ -18,24 +14,25 @@ layout: default
         {% if site.schedule %}
           <p><i>* Grade sujeita a alterações</i></p>
           {% for e in site.schedule %}
+
           <div class="presentation-gem row">
-            <div class="col-sm-10">
-              <div class="pull-left" >
-                <span class="gem-hour">{{ e.presentation.time.hour }}</span><span class="gem-turn">{{ e.presentation.turn }}</span>
-              </div>
-              <div style="margin-left:120px;">
+            <div class="col-sm-2">
+              <span class="gem-hour">{{ e.presentation.time.hour }}</span>
+            </div>
+            <div class="col-sm-8 ">
+              <div class="presentation-desc">
                 <h3>{{ e.presentation.title }}</h3>
                 {% if e.presentation.remote == "true" %}
                   <span class="label label-primary">Remota</span>
                 {% endif %}
-              <div class="sub"><a href="{{ e.link }}">{{ e.name }}</a></div>
-              <div>
-                {{ e.presentation.description }}
-              </div>
+                <div class="sub"><a href="#">{{ e.name }}</a></div>
+                <div>{{ e.presentation.description }}</div>
               </div>
             </div>
             <div class="col-sm-2 hidden-xs">
-              <a href="{{ e.link }}" target="_blank"><img src="{{ e.photo | prepend: site.baseurl | prepend: site.url }}" class="img-responsive" /></a>
+              <a href="{{ e.link }}" target="_blank">
+                <img src="{{ e.photo | prepend: site.baseurl | prepend: site.url }}" class="img-responsive" />
+              </a>
             </div>
           </div>
           <hr/>

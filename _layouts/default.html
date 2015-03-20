@@ -12,8 +12,11 @@
           <div class="starter-template">
             <h1>{{site.conf.title}}</h1>
             <p class="lead">{{site.conf.sub_title}}</p>
+            <a id="hey-yo" target="_blank" class="btn btn-danger btn-lg " href="{{site.call_to_action.link}}">{{site.call_to_action.title}}</a>
             {% if site.city_image %}
               <img class="igrejinha img-responsive" src="{{ site.city_image | prepend: site.baseurl | prepend: site.url }}"/>
+            {% else %}
+            <br/><br/>
             {% endif %}
           </div>
       </div>

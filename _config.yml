@@ -157,7 +157,7 @@ schedule:
       time:
         hour: "16:20"
         turn: "pm"
-      title: "Painel sobre Internet das Coisas (Mediador GDG Recife)"
+      title: "Painel sobre Internet das Coisas - IoT"
 
   - link: "#"
     name: "Usando Xamarin para uma nova mobilidade"
