@@ -43,6 +43,10 @@ markdown: redcarpet
 paginate: 10
 
 partners:
+  - logo: "/img/google-developers.png"
+    name: "Google Developers"
+    url: ""
+
   - logo: /img/gdg-salvador.svg
     name: "GDG Salvador"
     url: ""
