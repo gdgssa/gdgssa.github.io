@@ -164,11 +164,11 @@ schedule:
       title: "Painel sobre Internet das Coisas - IoT"
 
   - link: "#"
-    name: "Usando Xamarin para uma nova mobilidade"
+    name: "Mobilidade além do smartphone"
     photo: "/img/speakers/paulo-ortins.jpg"
     presentation:
       remote: "false"
-      description: 'O Xamarin é uma plataforma que proporciona o desenvolvimento de aplicações nativas utilizando C# e compartilhando até 90% do código entre as plataformas.<br/>Conheça alguns conceitos da nova mobilidade que mescla novas tecnologias como beacons bluetooth, wearables, google glass e muito mais com exemplos práticos!'
+      description: ' Mobilidade é só smartphone? Claro que não! Nessa palestra vamos conhecer novos brinquedos que já estão mudando ou vão mudar a forma com que interagimos no mundo. Se prepare para conhecer mais sobre beacons bluetooth, relógios (smart watches), óculos e até mesmo carros inteligentes!'
       time:
         hour: "17:20"
         turn: "pm"
