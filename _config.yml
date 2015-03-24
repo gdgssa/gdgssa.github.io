@@ -113,11 +113,11 @@ schedule:
     photo: "/img/speakers/glauber.jpg"
     presentation:
       remote: "false"
-      description: ""
+      description: "A Representational State Transfer (REST), em português Transferência de Estado Representacional, é uma abstração da arquitetura Web e tem emergido como uma excelente opção para arquitetar Interface de Programação de Aplicações/aplicativos (conhecidos como API's) Web e mobile, dentre outros. Nesta apresentação você conhecerá mais sobre como construir uma API REST utilizando o microframework python Flask, além de dicas e truques sobre esta arquitetura"
       time:
         hour: "11:00"
         turn: "am"
-      title: "Escrevendo APIs REST com o Flask"
+      title: "Escrevendo API's REST com o Flask"
 
   - link: "#"
     name: "Eduardo Emery"
