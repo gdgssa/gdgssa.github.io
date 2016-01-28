@@ -10,7 +10,6 @@ github_username:  GDG-Salvador
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 permalink: /:title/
 
 exclude: ['package.json', '_src', 'node_modules', 'vendor/bundle/ruby']
