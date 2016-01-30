@@ -99,8 +99,8 @@ var gulp          = require('gulp'),
  */
 gulp.task('watch', function () {
     gulp.watch('_src/js/**/*.js', ['js']);
-    gulp.watch('src/json/**/*.json', ['json']);
-    gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
+    gulp.watch('_src/json/**/*.json', ['json']);
+    gulp.watch('_src/img/**/*.{jpg,png,gif}', ['imagemin']);
     gulp.watch('_src/sass/**/*.scss', ['sass']);
     gulp.watch(['*.html','index.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '**/*.md', '**/*.html'], ['jekyll-rebuild', 'minify-html']);
 });
