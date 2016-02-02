@@ -4,6 +4,9 @@
   height: auto;
   color: rgba(255, 255, 255, 0.9); }
 
+.logo-gdg {
+  width: 7rem; }
+
 .color-overlay {
   position: absolute;
   top: 0;
