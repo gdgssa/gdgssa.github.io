@@ -1,23 +1,21 @@
 ---
 layout: default
 ---
-
 <div class="home">
-
- 
-
-  <ul class="post-list">
+  <div class="row">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title yellow-text">{{ post.title }}</span>
+              <p>{{ post.description }}</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Compartilhar no Twitter</a>
+              <a href="#">Inscrições</a>
+            </div>
+          </div>
+      </div>
     {% endfor %}
-  </ul>
-
-  
-
+  </div>
 </div>

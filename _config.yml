@@ -5,11 +5,27 @@ description: > # this means to ignore newlines until "baseurl:"
  Google Developer Group Salvador.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gdg-salvador.github.io" # the base hostname & protocol for your site
+url_dev: "http://localhost:4000"
 twitter_username: gdgssa
 github_username:  GDG-Salvador
 
 # Build settings
 markdown: kramdown
 permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+pages:
+  - title: Home
+    url: /
+  - title: Eventos
+    url: /eventos
+  - title: Sobre GDG
+    url: /sobre
 
 exclude: ['package.json', '_src', 'node_modules', 'vendor/bundle/ruby']
