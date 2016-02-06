@@ -1,3 +1,6 @@
+body {
+  background-color: #fcfcfc; }
+
 .parallax-container {
   min-height: 80vh;
   line-height: 0;
@@ -5,7 +8,7 @@
   color: rgba(255, 255, 255, 0.9); }
 
 .logo-gdg {
-  width: 7rem; }
+  width: 12rem; }
 
 .color-overlay {
   position: absolute;
@@ -22,3 +25,28 @@
 
 .footer-copyright {
   border-top: 1px solid #b0bec5; }
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #263238;
+  padding: 50px 50px 50px 50px; }
+  .strike > span {
+    position: relative;
+    display: inline-block; }
+    .strike > span:before {
+      right: 100%;
+      margin-right: 15px; }
+    .strike > span:after {
+      left: 100%;
+      margin-left: 15px; }
+
+.strike > span:before, .strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: #263238; }
