@@ -28,7 +28,6 @@ pages:
     url: /eventos
   - title: Sobre GDG
     url: /sobre
-  - title: Sobre GDG
-    url: /sobre
+
 
 exclude: ['package.json', '_src', 'node_modules', 'vendor/bundle/ruby']
