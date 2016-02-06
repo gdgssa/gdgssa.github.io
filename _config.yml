@@ -1,5 +1,6 @@
 ## Site settings
 title: GDG Salvador
+title_min: GDGSSA
 email: gdg.salvador@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  Google Developer Group Salvador.
