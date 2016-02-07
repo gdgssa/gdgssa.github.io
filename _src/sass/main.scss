@@ -66,3 +66,19 @@ body{
     height: 1px;
     background: $blue-gray;
 }
+
+
+.flex-center {
+  color: white;
+  border:none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  resize: vertical;
+  overflow: auto;
+  h2, h3{
+    margin: 0;
+    padding: 20px;
+  }
+}

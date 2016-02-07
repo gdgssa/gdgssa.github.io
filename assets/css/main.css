@@ -1,5 +1,5 @@
 body {
-  background-color: #fcfcfc; }
+  background-color: #F6F4F8; }
 
 .parallax-container {
   min-height: 100vh;
@@ -51,3 +51,16 @@ body {
   width: 9999px;
   height: 1px;
   background: #263238; }
+
+.flex-center {
+  color: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  resize: vertical;
+  overflow: auto; }
+  .flex-center h2, .flex-center h3 {
+    margin: 0;
+    padding: 20px; }
