@@ -1,0 +1,35 @@
+.flow-text {
+  text-align: justify;
+}
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  color: $blue-gray;
+  padding: 20px 50px 30px 50px;
+  > span{
+    position: relative;
+    display: inline-block;
+    //top:-2.8em;
+    &:before{
+      right: 100%;
+      margin-right: 15px;
+    }
+    &:after{
+      left: 100%;
+      margin-left: 15px;
+    }
+  }
+}
+
+.strike > span:before, .strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: $blue-gray;
+}
+

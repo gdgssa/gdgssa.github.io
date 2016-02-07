@@ -1,15 +1,13 @@
-body {
-  background-color: #F6F4F8; }
-
 .parallax-container {
   min-height: 100vh;
   background-image: url(/assets/img/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, 0.9); }
-
-.logo-gdg {
-  width: 12rem; }
 
 .color-overlay {
   position: absolute;
@@ -21,11 +19,32 @@ body {
   opacity: 0.8;
   z-index: 1; }
 
+.light-transparent {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 30px 0 0;
+  height: 50px;
+  z-index: 10; }
+
+.flex-center {
+  color: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  resize: vertical;
+  overflow: auto; }
+  .flex-center h2, .flex-center h3 {
+    margin: 0;
+    padding: 20px; }
+
 .flow-text {
   text-align: justify; }
-
-.footer-copyright {
-  border-top: 1px solid #b0bec5; }
 
 .strike {
   display: block;
@@ -52,15 +71,8 @@ body {
   height: 1px;
   background: #263238; }
 
-.flex-center {
-  color: white;
-  border: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  resize: vertical;
-  overflow: auto; }
-  .flex-center h2, .flex-center h3 {
-    margin: 0;
-    padding: 20px; }
+.footer-copyright {
+  border-top: 1px solid #b0bec5; }
+
+body {
+  background-color: #F6F4F8; }

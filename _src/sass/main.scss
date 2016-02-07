@@ -1,84 +1,10 @@
 @import "_variables.scss";
+@import "_header.scss";
+@import "_content.scss";
+@import "_footer.scss";
 
 
 body{
   background-color: $bg;
 }
 
-.parallax-container {
-    min-height: 100vh;
-    background-image: url(/assets/img/background1.jpg);
-    line-height: 0;
-    height: auto;
-    color: rgba(255,255,255,.9);
-}
-
-.logo-gdg{
-	width: 12rem;
-}
-
-.color-overlay {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: $overlay;
-   opacity: 0.8;
-   z-index: 1;
-}
-
-.flow-text {
-  text-align: justify;
-}
-
-.footer-copyright{
-	border-top: 1px solid #b0bec5;
-}
-
-.strike {
-  display: block;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  color: $blue-gray;
-  padding: 20px 50px 30px 50px;
-  > span{
-    position: relative;
-    display: inline-block;
-    //top:-2.8em;
-    &:before{
-      right: 100%;
-      margin-right: 15px;
-    }
-    &:after{
-      left: 100%;
-      margin-left: 15px;
-    }
-  }
-}
-
-.strike > span:before, .strike > span:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 9999px;
-    height: 1px;
-    background: $blue-gray;
-}
-
-
-.flex-center {
-  color: white;
-  border:none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  resize: vertical;
-  overflow: auto;
-  h2, h3{
-    margin: 0;
-    padding: 20px;
-  }
-}
