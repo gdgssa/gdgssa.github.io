@@ -61,7 +61,7 @@ var gulp          = require('gulp'),
 
   // * Javascript Task 
   gulp.task('js', function(){
-    return gulp.src((env.p) ? 'src/js/**.js' : ['src/js/**/*.js', '!src/js/analytics.js'])
+    return gulp.src((env.p) ? '_src/js/**.js' : ['_src/js/**/*.js', '!_src/js/analytics.js'])
       .pipe(plumber())
       .pipe(concat('main.js'))
       .pipe(uglify())
@@ -79,7 +79,7 @@ var gulp          = require('gulp'),
 
   // * Imagemin Task
   gulp.task('imagemin', function() {
-      return gulp.src('src/img/**/*.{jpg,png,gif}')
+      return gulp.src('_src/img/**/*.{jpg,png,gif}')
       .pipe(plumber())
       .pipe(gulp.dest('assets/img/'));
   });
@@ -117,3 +117,5 @@ gulp.task('build', ['badge', 'js', 'json',  'sass']);
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['js', 'json', 'sass', 'browser-sync'/*, 'minify-html'*/, 'watch']);
+
+
