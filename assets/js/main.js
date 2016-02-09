@@ -1,0 +1,1 @@
+!function(){"use strict";window.onload=function(){window.scrollTo(0,0),window.onscroll=function(){var o=document.body,n=o.scrollTop,e=o.clientHeight-window.innerHeight,t=Math.floor(n/e*100);t>65?document.querySelector(".transparent").className="blue":document.querySelector(".blue").className="transparent"}}}();
