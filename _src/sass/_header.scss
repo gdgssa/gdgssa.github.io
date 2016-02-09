@@ -3,6 +3,17 @@
     position: absolute;
 }
 
+.blue{
+  transition: all 0.65s linear;
+}
+
+.transparent {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    transition: all 0.65s linear;
+}
+
 .parallax-container {
     min-height: 100vh;
     background-image: url(/assets/img/background1.jpg);
@@ -29,17 +40,7 @@
 
 
 
-.light-transparent {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background: none;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    padding: 30px 0 0;
-    height: 50px;
-    z-index: 10;
-}
+
 
 .flex-center {
   color: white;
