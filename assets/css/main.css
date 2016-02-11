@@ -2,14 +2,21 @@
   top: 0;
   position: absolute; }
 
+.new-logo {
+  position: relative;
+  top: -3.5rem;
+  transition: all 0.45s linear; }
+  .new-logo > img {
+    width: 250px; }
+
 .blue {
-  transition: all 0.65s linear; }
+  transition: all 0.45s linear; }
 
 .transparent {
   -webkit-box-shadow: none;
   box-shadow: none;
   background: none;
-  transition: all 0.65s linear; }
+  transition: all 0.45s linear; }
 
 .parallax-container {
   min-height: 100vh;
