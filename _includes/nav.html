@@ -1,0 +1,21 @@
+<div class="site-header navbar-fixed">
+  <nav class="transparent" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="/" class="new-logo white-text" style="display: none;">
+          <img src="/assets/img/logo_gdgssa_horizontal_white.svg" alt="">
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Iniciativas</a></li>
+        <li><a href="#">Eventos</a></li>        
+        <li><a href="#">Time</a></li>
+        <li><a href="#">GDG em sua Faculdade</a></li>        
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        {% for page in site.pages %}
+          <li><a href="{{ site.url_dev }}{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>

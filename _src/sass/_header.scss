@@ -23,7 +23,7 @@
     transition: all 0.45s linear;
 }
 
-.parallax-container {
+.header-container {
     min-height: 100vh;
     background-image: url(/assets/img/background1.jpg);
     background-size: cover;
@@ -46,10 +46,6 @@
    opacity: 0.8;
    z-index: 1;
 }
-
-
-
-
 
 .flex-center {
   color: white;

@@ -1,20 +1,6 @@
-<header class="site-header navbar-fixed" role="header">
-  <nav class="transparent" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="/" class="new-logo white-text" style="display: none;">
-          <img src="/assets/img/logo_gdgssa_horizontal.svg" alt="">
-      </a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Teste</a></li>
-        <li><a href="#">Teste</a></li>
-        <li><a href="#">Teste</a></li>
-      </ul>
-      <ul id="nav-mobile" class="side-nav">
-        {% for page in site.pages %}
-          <li><a href="{{ site.url_dev }}{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+<header id="index-banner" class="header-container" role="banner">
+	<div class="row center flex-center">
+	  <img src="/assets/img/logo_gdgssa_vert_white.svg" alt="" style="z-index: 100">
+	</div>
+  <div class="color-overlay"></div>  
 </header>
