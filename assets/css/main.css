@@ -85,3 +85,8 @@ body {
 
 .footer-copyright {
   border-top: 1px solid #b0bec5; }
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 5px; }
