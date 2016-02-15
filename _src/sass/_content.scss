@@ -1,5 +1,3 @@
-
-
 body{
   background-color: $bg;
 }
@@ -38,3 +36,10 @@ body{
     background: $blue-gray;
 }
 
+.text{  
+  font-size: 1.4rem;
+  &-intro{
+    font-size: 1.7rem;
+    font-style: justify;
+  }
+}

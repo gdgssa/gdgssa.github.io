@@ -83,6 +83,12 @@ body {
   height: 1px;
   background: #263238; }
 
+.text {
+  font-size: 1.4rem; }
+  .text-intro {
+    font-size: 1.7rem;
+    font-style: justify; }
+
 .footer-copyright {
   border-top: 1px solid #b0bec5; }
 
