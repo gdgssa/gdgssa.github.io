@@ -11,12 +11,12 @@
           
           console.log('Scroll: ', percentageScrolled);
           if (percentageScrolled > 20){
-            document.querySelector('.transparent').className = 'blue';
+            document.querySelector('.transparent').className = 'teal';
             document.querySelector('.new-logo').style.display = '';
           } 
 
           else{
-            document.querySelector('.blue').className = 'transparent';
+            document.querySelector('.teal').className = 'transparent';
             document.querySelector('.new-logo').style.display = 'none';
           }
 
