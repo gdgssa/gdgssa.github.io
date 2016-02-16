@@ -55,8 +55,9 @@
 body {
   background-color: #F6F4F8; }
 
-.flow-text {
-  text-align: justify; }
+section {
+  border-bottom: 1px solid #b0bec5;
+  padding-bottom: 2rem; }
 
 .strike {
   display: block;
@@ -83,8 +84,15 @@ body {
   height: 1px;
   background: #263238; }
 
+.title-header {
+  font-size: 2.5rem;
+  line-height: 110%;
+  margin: 1.78rem 0 2.424rem 0;
+  font-weight: 600; }
+
 .text {
-  font-size: 1.4rem; }
+  line-height: 1.5;
+  font-size: 1.8rem; }
   .text-intro {
     font-size: 1.7rem;
     font-style: justify; }
