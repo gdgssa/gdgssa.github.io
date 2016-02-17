@@ -59,6 +59,15 @@ section {
   border-bottom: 1px solid #b0bec5;
   padding-bottom: 2rem; }
 
+.height-50 {
+  height: 50vh; }
+
+.height-80 {
+  height: 80vh; }
+
+.height-100 {
+  height: 100vh; }
+
 .strike {
   display: block;
   text-align: center;
