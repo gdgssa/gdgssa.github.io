@@ -6,7 +6,7 @@ body{
 
 .section{
   &-50{
-    height: 50vh;
+    height: 60vh;
     background: $event;
   }
 
@@ -48,4 +48,8 @@ body{
 
 #work .card {
     height: 200px;
+}
+
+.card-content {
+  padding: 1rem!important;
 }
