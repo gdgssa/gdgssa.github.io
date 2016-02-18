@@ -55,48 +55,30 @@
 body {
   background-color: #F6F4F8; }
 
-.height-50 {
-  height: 50vh; }
+.section-50 {
+  height: 50vh;
+  background: #8E44AD; }
 
-.height-80 {
-  height: 80vh; }
+.section-80 {
+  height: 80vh;
+  background: #34495E; }
 
-.height-100 {
+.section-100 {
   height: 100vh;
   background: #E74C3C; }
 
-.strike {
-  display: block;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  color: #263238;
-  padding: 20px 50px 30px 50px; }
-  .strike > span {
-    position: relative;
-    display: inline-block; }
-    .strike > span:before {
-      right: 100%;
-      margin-right: 15px; }
-    .strike > span:after {
-      left: 100%;
-      margin-left: 15px; }
-
-.strike > span:before, .strike > span:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 9999px;
-  height: 1px;
-  background: #263238; }
+.section-work {
+  height: 80vh;
+  background: #3f51b5; }
 
 .title-header {
-  font-size: 2.5rem;
+  position: relative;
+  font-size: 3rem;
   line-height: 100%;
   margin: 1.78rem 0 2.424rem 5rem;
   font-weight: 600;
   top: 3rem;
-  position: relative; }
+  padding-bottom: 3rem; }
 
 .text {
   line-height: 1.5;
@@ -104,6 +86,9 @@ body {
   .text-intro {
     font-size: 1.7rem;
     font-style: justify; }
+
+#work .card {
+  height: 200px; }
 
 footer {
   padding-top: 1.5rem; }
@@ -116,3 +101,6 @@ footer {
   width: 2rem;
   height: 2rem;
   margin: 5px; }
+
+* {
+  font-family: 'Raleway', sans-serif; }

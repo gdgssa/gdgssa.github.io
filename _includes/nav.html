@@ -5,15 +5,16 @@
           <img src="/assets/img/logo_gdgssa_horizontal_white.svg" alt="">
       </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Iniciativas</a></li>
+        <li><a href="#work">Iniciativas</a></li>
         <li><a href="#event">Eventos</a></li>        
         <li><a href="#university">GDG em sua Faculdade</a></li>        
         <li><a href="#team">Time</a></li>
       </ul>
       <ul id="nav-mobile" class="side-nav">
-        {% for page in site.pages %}
-          <li><a href="{{ site.url_dev }}{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
+        <li><a href="#work">Iniciativas</a></li>
+        <li><a href="#event">Eventos</a></li>        
+        <li><a href="#university">GDG em sua Faculdade</a></li>        
+        <li><a href="#team">Time</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
