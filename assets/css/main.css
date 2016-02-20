@@ -56,7 +56,7 @@ body {
   background-color: #F6F4F8; }
 
 .section-50 {
-  height: 60vh;
+  height: 50vh;
   background: #8E44AD; }
 
 .section-80 {
@@ -88,10 +88,7 @@ body {
     font-style: justify; }
 
 #work .card {
-  height: 200px; }
-
-.card-content {
-  padding: 1rem !important; }
+  height: 230px; }
 
 footer {
   padding-top: 1.5rem; }

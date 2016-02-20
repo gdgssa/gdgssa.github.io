@@ -6,7 +6,7 @@ body{
 
 .section{
   &-50{
-    height: 60vh;
+    height: 50vh;
     background: $event;
   }
 
@@ -37,7 +37,7 @@ body{
 }
 
 
-.text{  
+.text{
   line-height: 1.5;
   font-size: 1.8rem;
   &-intro{
@@ -47,9 +47,5 @@ body{
 }
 
 #work .card {
-    height: 200px;
-}
-
-.card-content {
-  padding: 1rem!important;
+    height: 230px;
 }
