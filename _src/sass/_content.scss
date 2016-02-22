@@ -5,23 +5,23 @@ body{
 
 
 .section{
-  &-50{
-    height: 80vh;
+  &-event{
+    height: 100vh;
     background: $event;
   }
 
-  &-80{
-    height: 80vh;
+  &-university{
+    height: 100vh;
     background: $university;
   }
 
-  &-100{
+  &-team{
     height: 100vh;
     background: $team;
   }
 
   &-work{
-    height:80vh;
+    height:100vh;
     background:$work;
   }
 }

@@ -55,20 +55,20 @@
 body {
   background-color: #F6F4F8; }
 
-.section-50 {
-  height: 80vh;
+.section-event {
+  height: 100vh;
   background: #8E44AD; }
 
-.section-80 {
-  height: 80vh;
+.section-university {
+  height: 100vh;
   background: #34495E; }
 
-.section-100 {
+.section-team {
   height: 100vh;
   background: #E74C3C; }
 
 .section-work {
-  height: 80vh;
+  height: 100vh;
   background: #3f51b5; }
 
 .title-header {
