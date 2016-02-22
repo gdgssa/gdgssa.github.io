@@ -6,7 +6,7 @@ body{
 
 .section{
   &-50{
-    height: 50vh;
+    height: 80vh;
     background: $event;
   }
 
@@ -44,6 +44,16 @@ body{
     font-size: 1.7rem;
     font-style: justify;
   }
+}
+
+.card-team{
+    padding:10px;   
+} 
+
+.card-team-action{
+  border-top: 1px solid rgba(160,160,160,0.5);
+  padding-top: 1rem;
+  padding-bottom: 1.2rem;
 }
 
 #work .card {
