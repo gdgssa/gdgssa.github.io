@@ -87,6 +87,9 @@ body {
     font-size: 1.7rem;
     font-style: justify; }
 
+.card-text {
+  font-size: 1rem; }
+
 .card-team {
   padding: 10px; }
 
@@ -96,7 +99,8 @@ body {
   padding-bottom: 1.2rem; }
 
 #work .card {
-  height: 230px; }
+  min-height: 260px;
+  max-height: 320px; }
 
 footer {
   padding-top: 1.5rem; }
