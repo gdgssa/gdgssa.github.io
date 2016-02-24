@@ -6,12 +6,12 @@ body{
 
 .section{
   &-event{
-    height: 100vh;
+    height: 60vh;
     background: $event;
   }
 
   &-university{
-    height: 100vh;
+    height: 75vh;
     background: $university;
   }
 
@@ -21,7 +21,7 @@ body{
   }
 
   &-work{
-    height:100vh;
+    height:85vh;
     background:$work;
   }
 }
