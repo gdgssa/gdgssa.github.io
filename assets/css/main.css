@@ -103,7 +103,14 @@ body {
   max-height: 320px; }
 
 footer {
-  padding-top: 1.5rem; }
+  padding-top: 1.5rem;
+}
+
+footer .title {
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: 0.82rem 0 0.656rem 0;
+}
 
 .footer-copyright {
   border-top: 1px solid #b0bec5;
@@ -116,3 +123,14 @@ footer {
 
 * {
   font-family: 'Raleway', sans-serif; }
+
+.sr-only {
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
