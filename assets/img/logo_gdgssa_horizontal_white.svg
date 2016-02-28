@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 691.42 448" enable-background="new 0 0 691.42 448" xml:space="preserve">
+	 <title id="title">GDG Salvador</title>
+	 <desc id="title">Grupo de Desenvolvedores Google de Salvador</desc>
 <rect display="none" fill="#93278F" width="691.42" height="448"/>
-<g>
+<g role="presentation">
 	<rect x="111.29" y="258.04" fill="#D5D5D5" width="117.27" height="12.42"/>
 	<rect x="107.99" y="258.04" fill="#D5D5D5" width="123.87" height="3.19"/>
 	<polygon fill="#585858" points="233.85,300.47 106.25,300.47 111.29,270.46 228.56,270.46 	"/>
@@ -11,7 +12,7 @@
 		<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
 		<stop  offset="1" style="stop-color:#000000"/>
 	</linearGradient>
-	<polygon opacity="0.3" fill="url(#SVGID_1_)" points="175.79,261.23 111.34,261.23 111.29,270.46 109.64,281.62 106.25,300.49 
+	<polygon opacity="0.3" fill="url(#SVGID_1_)" points="175.79,261.23 111.34,261.23 111.29,270.46 109.64,281.62 106.25,300.49
 		125.7,300.49 167.06,300.71 	"/>
 	<g>
 		<g id="XMLID_14_">
@@ -59,17 +60,17 @@
 		<g>
 			<polygon id="XMLID_13_" fill="#E5B430" points="208.54,273.07 197,253.12 169.32,300.98 193.02,300.98 208.85,273.61 			"/>
 			<polygon fill="#1F9354" points="184.53,231.55 197,253.12 169.32,300.98 144.37,300.98 			"/>
-			<polygon opacity="0.2" fill="#B33817" enable-background="new    " points="193.02,299.9 169.95,299.9 169.32,300.98 
+			<polygon opacity="0.2" fill="#B33817" enable-background="new    " points="193.02,299.9 169.95,299.9 169.32,300.98
 				193.02,300.98 208.85,273.61 208.54,273.07 			"/>
-			<polygon opacity="0.2" fill="#243137" enable-background="new    " points="145,299.9 144.37,300.98 169.32,300.98 169.95,299.9 
+			<polygon opacity="0.2" fill="#243137" enable-background="new    " points="145,299.9 144.37,300.98 169.32,300.98 169.95,299.9
 							"/>
-			
+
 				<radialGradient id="XMLID_3_" cx="208.6726" cy="176.817" r="48.0196" gradientTransform="matrix(1 0 0 -1 0 450)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#B33817;stop-opacity:0.2"/>
 				<stop  offset="1" style="stop-color:#B33817;stop-opacity:0.02"/>
 			</radialGradient>
 			<polygon id="XMLID_12_" fill="url(#XMLID_3_)" points="208.85,273.61 208.85,273.61 197,253.12 194.1,258.14 			"/>
-			
+
 				<radialGradient id="XMLID_4_" cx="208.5362" cy="176.5134" r="48.4094" gradientTransform="matrix(1 0 0 -1 0 450)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#243137;stop-opacity:0.2"/>
 				<stop  offset="1" style="stop-color:#243137;stop-opacity:0.02"/>
