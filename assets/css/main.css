@@ -91,7 +91,7 @@ body {
   font-size: 1rem; }
 
 .card-team {
-  padding: 10px; }
+  padding: 15px; }
 
 .card-team-action {
   border-top: 1px solid rgba(160, 160, 160, 0.5);
@@ -103,18 +103,16 @@ body {
   max-height: 320px; }
 
 footer {
-  padding-top: 1.5rem;
-}
-
-footer .title {
-  font-size: 1.64rem;
-  line-height: 110%;
-  margin: 0.82rem 0 0.656rem 0;
-}
+  padding-top: 1.5rem; }
 
 .footer-copyright {
   border-top: 1px solid #b0bec5;
   padding: 1rem; }
+
+footer .title {
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: 0.82rem 0 0.656rem 0; }
 
 .icon {
   width: 1.5rem;
@@ -126,11 +124,10 @@ footer .title {
 
 .sr-only {
   position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
-}
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
