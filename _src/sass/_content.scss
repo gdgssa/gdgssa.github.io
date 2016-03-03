@@ -1,28 +1,33 @@
 body{
-  background-color: $bg;
+  background-color: $work;
+  font-size: 16px;
 }
 
 
 
 .section{
   &-event{
-    height: 60vh;
+    min-height: 60vh;
     background: $event;
+    padding: 1rem;
   }
 
   &-university{
-    height: 75vh;
+    min-height: 75vh;
     background: $university;
+    padding: 1rem;
   }
 
   &-team{
-    height: 100vh;
+    min-height: 100vh;
     background: $team;
+    padding: 1rem;
   }
 
   &-work{
-    height:85vh;
+    min-height:85vh;
     background:$work;
+    padding: 1rem;
   }
 }
 
@@ -30,7 +35,7 @@ body{
   position: relative;
   font-size: 3rem;
   line-height: 100%;
-  margin: 1.78rem 0 2.424rem 5rem;
+  //margin: 1.78rem 0 2.424rem 5rem;
   font-weight: 600;
   top: 3rem;
   padding-bottom: 3rem;
