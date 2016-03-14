@@ -4,7 +4,7 @@ Website oficial do Google Developers Group Salvador,BA - Brazil
 
 ---
 
-### Como usar
+### Como Contribuir
 ##### Instalação:
 
 1 -  Instale o [`Git`](https://git-scm.com/downloads), [`Ruby`](http://www.ruby-lang.org/pt/downloads/), [`NodeJS`](https://nodejs.org/en/) e o [`GulpJS`](http://gulpjs.com/).
