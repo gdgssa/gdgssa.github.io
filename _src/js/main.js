@@ -2,23 +2,27 @@
   'use strict';
   
     window.onload = function () { 
-      window.scrollTo(0,0); 
-        window.onscroll = function () { 
-          var doc = document.body, 
-          scrollPosition = doc.scrollTop,
-          pageSize = (doc.clientHeight - window.innerHeight),
-          percentageScrolled = Math.floor((scrollPosition / pageSize) * 100); 
-          
-          if (percentageScrolled > 20){
-            document.querySelector('.transparent').className = 'teal';
-            document.querySelector('.new-logo').style.display = '';
-          } 
+      window.scrollTo(0, 0); 
+      window.onscroll = function () { 
+        var doc = document.body; 
+        var scrollPosition = doc.scrollTop;
+        var pageSize = (doc.clientHeight - window.innerHeight);
+        var percentageScrolled = Math.floor((scrollPosition / pageSize) * 100); 
+        
+        var bgColor = $('#bgColor');
+        var gdgLogo = $('#logo-container');
+        var colorHeader = $('.teal');
 
-          else{
-            document.querySelector('.teal').className = 'transparent';
-            document.querySelector('.new-logo').style.display = 'none';
-          }
+        gdgLogo.hide();
+        
+        if (percentageScrolled < 20){
+          colorHeader.addClass('transparent');
+        } else {
+          bgColor.removeClass('transparent');
+          bgColor.addClass('teal');
+          gdgLogo.show();
+        }
 
-        }; 
+      }; 
     };
 })();
