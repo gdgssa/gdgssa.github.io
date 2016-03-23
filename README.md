@@ -1,7 +1,7 @@
 # GDG Salvador
 
 Website oficial do Google Developers Group Salvador,BA - Brazil
-
+> [http://gdgssa.github.io](http://gdgssa.github.io)
 ---
 
 ### Como Contribuir
