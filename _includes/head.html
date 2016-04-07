@@ -15,19 +15,21 @@
   <meta name="twitter:site"  content="@gdgssa">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="twitter:image:src" content="{{ "/assets/img/shareImage.png" | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Social: Facebook / Open Graph -->
-  <meta property="fb:admins" content="" />
-  <meta property="og:url"    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:type"   content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}">
-  <meta property="og:title"  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="fb:admins" content="1669052591" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:image" content="{{ "/assets/img/shareImage.png" | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
 
   <!-- Social: Google+ / Schema.org  -->
   <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
   <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta itemprop="image" content="{{ "/assets/img/logo_gdgssa_horizontal.svg" | prepend: site.baseurl | prepend: site.url }}"/>
+  <meta itemprop="image" content="{{ "/assets/img/shareImage.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon" />
