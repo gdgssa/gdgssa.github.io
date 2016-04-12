@@ -76,6 +76,11 @@ body {
   background: #3f51b5;
   padding: 1rem; }
 
+.section-wtm {
+  min-height: 85vh;
+  background: #295a6a;
+  padding: 1rem; }
+
 .title-header {
   position: relative;
   font-size: 3rem;

@@ -29,6 +29,12 @@ body{
     background:$work;
     padding: 1rem;
   }
+
+  &-wtm{
+    min-height:85vh;
+    background:$wtm;
+    padding: 1rem;
+  }
 }
 
 .title-header{
@@ -56,9 +62,9 @@ body{
 }
 
 .card-team{
-    padding:16px;   
+    padding:16px;
     min-height: 16rem;
-} 
+}
 
 .card-team-action{
   border-top: 1px solid rgba(160,160,160,0.5);
